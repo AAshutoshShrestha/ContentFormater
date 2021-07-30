@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.sidebar.header("Content Formater ")
 
@@ -12,17 +13,20 @@ Status = st.sidebar.text_area('Write content here:')
 
 links  = st.sidebar.text_area('paste product link:') 
 
-B_link = st.sidebar.text_area('Enter brand link for viber community (kathmandu) :')
+if location == 'Kathmandu':
+    B_link = st.sidebar.text_area('Enter brand link for viber community (kathmandu):')
 
 
-st.markdown(''' ### Double check the content for any error: ''')
-st.write(Status)
+st.markdown(''' #### Double check the content for any error: ''')
+st.write(" ❝ "+Status+ " ❞")
 
-st.markdown(''' ### Product URL's:''')
+st.markdown(''' #### Product URL's:''')
 st.code(links)
 
+components.html("""<hr style="height:6px;border:none;color:#58CCED;background-color:#58CCED;" /> """)
 
-st.markdown(''' ### Result ::''')
+
+st.markdown(''' # Result ::''')
 
 st.markdown(''' ##### For Facebook ''')
 
