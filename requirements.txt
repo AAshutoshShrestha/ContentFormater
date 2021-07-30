@@ -1,0 +1,2 @@
+streamlit==0.78.0
+python==3.9.2
