@@ -65,6 +65,6 @@ elif location == 'Birtamode':
 elif location == 'Dharan':
     st.code(Status+"\n\nShop Now >>>> https://bit.ly/35Xeyci") 
 else:
-    st.code(Status+"\n\nShop Now >>>> " + I_link") 
+    st.code(Status+"\n\nShop Now >>>> " + I_link) 
 
 
