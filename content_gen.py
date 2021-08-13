@@ -59,12 +59,12 @@ st.markdown(''' ### Result ::''')
 st.markdown(''' #### For Viber Community ''')
 
 if location == 'Kathmandu':
-    st.code(Status+"\n\nShop Now >>>>"+ B_link) 
+    st.code(Status+"\nShop Now >>>>"+ B_link) 
 elif location == 'Birtamode':
-    st.code(Status+"\n\nShop Now >>>> https://bit.ly/35KG0cR") 
+    st.code(Status+"\nShop Now >>>> https://bit.ly/35KG0cR") 
 elif location == 'Dharan':
-    st.code(Status+"\n\nShop Now >>>> https://bit.ly/35Xeyci") 
+    st.code(Status+"\nShop Now >>>> https://bit.ly/35Xeyci") 
 else:
-    st.code(Status+"\n\nShop Now >>>> " + I_link) 
+    st.code(Status+"\nShop Now >>>> " + I_link) 
 
 
